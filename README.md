@@ -34,8 +34,7 @@
 
 （可选）如果你已为本仓库开启 GitHub Pages 或其他文档托管服务，可以在此放置在线浏览地址，例如：
 
-- 项目文档主页（示例）：`https://xbotics-community.github.io/xbotics-robot-claw/`
-- 或你自己的文档站点链接。
+- 项目文档主页：`https://mumu-jushen.github.io/Xbotics-robot-openclaw-awesome-work/`
 
 ## 目录
 
