@@ -40,21 +40,43 @@
 
 下面是推荐的内容结构，你可以根据实际内容进行增删和重命名。✅ 代表已完成，🚧 代表进行中。
 
-| 章节名 | 简介 | 状态 |
-| ---- | ---- | ---- |
-| [项目概览与总体方案](docs/overview/) | 以生态 / 合集视角介绍「机器人 × OpenClaw」的整体架构、常见模式与使用方式 | 🚧 |
-| [项目与活动汇总](docs/projects/) | 汇总优秀的「机器人 × OpenClaw / Picoclaw」项目与相关活动（awesome 风格清单） | 🚧 |
-| [活动与课程 / 赛事](docs/events/) | Xbotics 社区围绕本项目开展的 Workshop、课程、比赛等活动资料与经验 | 🚧 |
-| [常见问题 / FAQ](docs/appendix-faq.md) | 常见问题汇总、排障指南、参考资料 | 🚧 |
+- **项目概览与总体方案（`docs/overview/`）**（🚧）  
+  介绍为什么要做「机器人 × OpenClaw」项目与活动汇总、整个生态里常见的技术架构和组合方式，并给出如何使用本仓库（选项目、定路线、找活动）的总览指引。
+
+- **项目与活动汇总（`docs/projects/`）**（🚧）  
+  汇总优秀的「机器人 × OpenClaw / Picoclaw」项目与相关活动（awesome 风格清单）。  
+
+  当前已包含条目示例：
+
+  | 项目名 | 简介 |
+  | ---- | ---- |
+  | [HomeBot × OpenClaw：家庭服务机器人实验平台](https://github.com/choco-robot/HomeBot) | 基于宜家小推车 + Kiwi 底盘 +（可选）机械臂构建家庭服务机器人平台，通过 HomeBot 管理底盘 / 机械臂 / 视觉，并由 OpenClaw / Picoclaw 以自然语言控制。 |
+  | [OpenClaw 控制 ROS2 Rover（Moe Sani 项目）](https://moesani.com/blog/openclaw-is-now-controlling-my-robot/) | 使用 Jetson Orin Nano + ROS 2 Humble 的小车，通过 OpenClaw 作为决策层，借助 ROS 2 话题和服务实现目标分解、运动控制与视觉理解。 |
+  | [RosClaw：ROS2 meets OpenClaw](https://github.com/PlaiPin/rosclaw) | 提供 OpenClaw ↔ ROS2 的通用插件层，通过消息应用（Telegram/WhatsApp/Discord 等）发送指令，统一控制多种 ROS2 机器人。 |
+
+- **活动与课程 / 赛事（`docs/events/`）**（🚧）  
+  Xbotics 社区围绕本项目开展的 Workshop、课程、比赛等活动资料与经验。  
+  - 已收录示例：  
+    - MakerMods × OpenClaw 具身智能黑客松（详见 `docs/events/index.md`，报名链接：[Luma 活动页](https://luma.com/0z41nrkz)）
+
+- **常见问题 / FAQ（`docs/appendix-faq.md`）**（🚧）  
+  汇总在「机器人 × OpenClaw」项目实践中的常见问题、排障思路与参考资料。
 
 > 提示：现有的《🦞+🤖：将 OpenClaw 部署到机器人上！详细开发指导【xbotics】.docx》文档，目前不直接拆入本仓库，只作为理解「HomeBot × OpenClaw」这一路线的背景材料；本仓库以「项目与活动汇总」为主。
+
+## 项目与活动汇总概览
+
+目前已收录的代表性项目包括（详情见 `docs/projects/`）：
+
+- **HomeBot × OpenClaw：家庭服务机器人实验平台**（`docs/projects/index.md`）  
+基于宜家小推车 + 全向轮 Kiwi 底盘 +（可选）机械臂构建移动抓取平台，通过 HomeBot 统一管理底盘 / 机械臂 / 视觉，并与 OpenClaw / Picoclaw 结合，实现「大模型控制的家庭机器人」。对应仓库：`https://github.com/choco-robot/HomeBot`。
 
 ## 贡献者名单
 
 
 | 姓名        | 职责          | 简介                            |
 | --------- | ----------- | ----------------------------- |
-| （示例）Alice | 项目负责人 / 总协调 | 负责 Xbotics-Robot-Claw 整体规划与统筹 |
+|   木木 | 项目负责人 / 总协调 | 负责 Xbotics-Robot-Claw 整体规划与统筹 |
 | （示例）Bob   | 教程作者 / 文档维护 | 负责核心教程与文档内容编写与更新              |
 | （示例）Carol | 硬件设计 / 结构优化 | 负责机械结构设计与迭代                   |
 | （示例）Dave  | 活动组织 / 社区运营 | 负责活动策划与社群运营                   |
@@ -87,7 +109,6 @@
 
 ## LICENSE
 
-  
 本作品采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/4.0/)进行许可。
 
 *注：默认使用 CC 4.0 协议，也可根据自身项目情况选用其他协议*
