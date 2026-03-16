@@ -42,12 +42,12 @@
 
 | 章节名 | 简介 | 状态 |
 | ---- | ---- | ---- |
-| [项目概览与总体方案](docs/chapter1/) | 介绍「OpenClaw 部署到机器人上」的整体架构、设计思路与关键组件 | 🚧 |
-| [硬件与软件部署实战](docs/chapter5/) | 以 HomeBot 等平台为例，给出从硬件搭建到 OpenClaw / HomeBot 部署的完整步骤 | 🚧 |
-| [活动与课程 / 赛事](docs/chapter6/) | Xbotics 社区围绕本项目开展的 Workshop、课程、比赛等活动资料与经验 | 🚧 |
+| [项目概览与总体方案](docs/overview/) | 以生态 / 合集视角介绍「机器人 × OpenClaw」的整体架构、常见模式与使用方式 | 🚧 |
+| [项目与活动汇总](docs/projects/) | 汇总优秀的「机器人 × OpenClaw / Picoclaw」项目与相关活动（awesome 风格清单） | 🚧 |
+| [活动与课程 / 赛事](docs/events/) | Xbotics 社区围绕本项目开展的 Workshop、课程、比赛等活动资料与经验 | 🚧 |
 | [常见问题 / FAQ](docs/appendix-faq.md) | 常见问题汇总、排障指南、参考资料 | 🚧 |
 
-> 提示：现有的《🦞+🤖：将 OpenClaw 部署到机器人上！详细开发指导【xbotics】.docx》文档，将作为本项目的主线内容来源，主要拆分到「项目概览与总体方案」和「硬件与软件部署实战」中。
+> 提示：现有的《🦞+🤖：将 OpenClaw 部署到机器人上！详细开发指导【xbotics】.docx》文档，目前不直接拆入本仓库，只作为理解「HomeBot × OpenClaw」这一路线的背景材料；本仓库以「项目与活动汇总」为主。
 
 ## 贡献者名单
 

@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 项目概览与总体方案
-      link: /chapter1/
+      link: /overview/
 
 features:
   - title: 🤖 OpenClaw 机器人化

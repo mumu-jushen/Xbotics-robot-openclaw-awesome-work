@@ -43,9 +43,9 @@ export default defineConfig({
     sidebar: [
       {
         items: [
-          { text: '项目概览与快速上手', link: '/chapter1/' },
-          { text: '示例项目与实战案例', link: '/chapter5/' },
-          { text: '活动与赛事', link: '/chapter6/' },
+          { text: '项目概览与总体方案', link: '/overview/' },
+          { text: '项目与活动汇总', link: '/projects/' },
+          { text: '活动与赛事', link: '/events/' },
           { text: '常见问题 / FAQ', link: '/appendix-faq' }
         ]
       }
