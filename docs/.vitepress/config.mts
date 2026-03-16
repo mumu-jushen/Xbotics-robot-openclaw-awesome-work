@@ -9,8 +9,8 @@ const baseConfig = isEdgeOne ? '/' : '/repo-template/'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: "Datawhale开源教程",
-  description: "AI前沿知识开源教程",
+  title: "Xbotics OpenClaw 机器人化项目文档",
+  description: "Xbotics 社区「将 OpenClaw 部署到实体机器人上」的完整项目文档与实战教程",
   base: baseConfig,
   markdown: {
     math: true
@@ -19,7 +19,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/datawhale-logo.png',
     nav: [
-      { text: 'PDF版本下载', link: 'https://github.com/datawhalechina/repo-template/releases' },
+      { text: '项目主页（GitHub）', link: 'https://github.com/datawhalechina/repo-template' },
     ],
     search: {
       provider: 'local',
@@ -43,13 +43,10 @@ export default defineConfig({
     sidebar: [
       {
         items: [
-          { text: '第1章：第1章的标题', link: '/chapter1/' },
-          { text: '第2章：第2章的标题', 
-            items: [
-              { text: '第2.1节：第2.1节的标题', link: '/chapter2/chapter2_1' },
-              { text: '第2.2节：第2.2节的标题', link: '/chapter2/chapter2_2' }
-            ]
-           }
+          { text: '项目概览与快速上手', link: '/chapter1/' },
+          { text: '示例项目与实战案例', link: '/chapter5/' },
+          { text: '活动与赛事', link: '/chapter6/' },
+          { text: '常见问题 / FAQ', link: '/appendix-faq' }
         ]
       }
     ],
@@ -60,11 +57,6 @@ export default defineConfig({
 
     editLink: {
       pattern: 'https://github.com/datawhalechina/repo-template/blob/main/docs/:path'
-    },
-
-    footer: {
-      message: '<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2026002630号-1</a> | <a href="https://beian.mps.gov.cn/#/query/webSearch?code=11010602202215" rel="noreferrer" target="_blank">京公网安备11010602202215号</a>',
-      copyright: '本作品采用 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议（CC BY-NC-SA 4.0）</a> 进行许可'
     }
   }
 })
